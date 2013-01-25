@@ -1,0 +1,24 @@
+{
+  "blog": {
+    "name": "My Blog Name",
+    "tagline": "The one true source of nothing...",
+    "url": "http://myblog.com",
+    "port": 2222
+  },
+  "articles": {
+    "oldUrlformat": "articles/{{date-year}}/{{date-month}}/{{slug}}",
+    "urlFormat": "{{slug}}",
+    "indexUrl": "index.html"
+  },
+  "partials": {
+    "googleAnalytics": {
+      "id": ""
+    }
+  },
+  "user": {
+    "github": "",
+    "stackoverflow": "",
+    "twitter": "",
+    "aboutme": ""
+  }
+}
