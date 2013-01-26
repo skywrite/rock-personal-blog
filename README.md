@@ -21,7 +21,7 @@ then download the rock:
 
 ### rock
 
-to install using [rock](https://github.com/rocktemplates/rock):
+to install using [rock](https://github.com/rocktemplates/rock) (optional):
 
     npm install -g rock
 
