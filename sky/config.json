@@ -9,8 +9,8 @@
   },
   "articles": {
     "oldUrlformat": "articles/{{date-year}}/{{date-month}}/{{slug}}",
-    "articleUrlFormat": "{{slug}}.html",
-    "indexUrlFormat": "index.html"
+    "urlFormat": "{{slug}}.html",
+    "index": "index.html"
   },
   "build": {
     "outputDir": "public/"
