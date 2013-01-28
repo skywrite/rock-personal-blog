@@ -3,12 +3,17 @@
     "name": "My Blog Name",
     "tagline": "The one true source of nothing...",
     "url": "http://myblog.com",
-    "port": 2222
+    "port": 2222,
+    "template": "basic",
+    "author": "<YOUR NAME>"
   },
   "articles": {
     "oldUrlformat": "articles/{{date-year}}/{{date-month}}/{{slug}}",
-    "urlFormat": "{{slug}}",
-    "indexUrl": "index.html"
+    "articleUrlFormat": "{{slug}}.html",
+    "indexUrlFormat": "index.html"
+  },
+  "build": {
+    "outputDir": "public/"
   },
   "partials": {
     "googleAnalytics": {
