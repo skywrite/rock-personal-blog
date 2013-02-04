@@ -1,6 +1,6 @@
 <%
-  var articles = _(self.articles).groupBy(function(a){ return a.createdAt.getFullYear() }) //group by year
-  var years = Object(articles).keys().map(function(year) { return ~~year }).sort().reverse()
+  var articles = _(self).groupBy(function(a){ return a.publishedAt.getFullYear() }) //group by year
+  var years = Object.keys(articles).map(function(year) { return ~~year }).sort().reverse()
 %>
 
 <% years.forEach(function(year) { %>
@@ -11,6 +11,6 @@
       <li>
         <a href="<%= article.relativePath %>"><%= article.title %></a>
       </li>
-    <% } %>
+    <% }) %>
   </ul>
-<% } %>
+<% }) %>
